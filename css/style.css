@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color:rgba(26, 3, 44, 0.616)  ;
-    background-color: linear-gradient(to bottom, #333333);
+    background-color: linear-gradient(to bottom, #1a032c, #333333);
   }
   
   h1 {
@@ -42,7 +42,7 @@ body {
   }
   
   a {
-    color: #0a0a1a;
+    color: #ba59d8;
     text-decoration: none;
   }
   
