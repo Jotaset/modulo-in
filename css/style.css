@@ -14,13 +14,14 @@ title {
 }
 
 body {
-    width: 100%;
+    width: 100vw;
     font-family: "JetBrains Mono", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #d3c7c7;
     background-color: #002687    ;
     align-items: center;  
+    justify-content: center;
 
   }
 
@@ -30,11 +31,13 @@ body {
   
 
   header {
+    width: 100vw;
     align-items: center;
     display: flex;
     justify-content: space-between;
     background-color:#1103509d  ;
     background-color: linear-gradient(to bottom, #1103509d, #00268700);
+    border-radius: 20px;
   }
   
   h1 {
@@ -94,7 +97,7 @@ body {
     cursor: pointer;
   }
 
-  
+
   img {
     max-width: 100%;
     height: auto;
@@ -134,9 +137,6 @@ body {
     color: #0000ff;
   }
   
-  .main {
-    margin-top: 10px;
-  }
   
   .main h2 {
     margin-top: 0;
