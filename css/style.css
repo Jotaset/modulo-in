@@ -4,30 +4,52 @@
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  
+}
+
+title {
+  font-family: "Agdasima", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
+    width: 100%;
     font-family: "JetBrains Mono", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #d3c7c7;
-    background-color: #333333;
+    background-color: #002687    ;
+    align-items: center;
   }
 
   header {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    background-color:rgba(26, 3, 44, 0.616)  ;
-    background-color: linear-gradient(to bottom, #1a032c, #333333);
+    background-color:#1103509d  ;
+    background-color: linear-gradient(to bottom, #1103509d, #00268700);
   }
   
   h1 {
+    font-family: "Agdasima", sans-serif;
+  font-weight: 400;
+  font-style: normal;
     font-size: 24px;
     font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 10px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fec62b;
   }
+
+  span {
+    font-family: "Agdasima", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+
   
   h2 {
     font-size: 18px;
