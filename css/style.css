@@ -129,12 +129,15 @@ body {
   }
   
   .header nav li a {
-    color: #FFFFFF;
     text-decoration: none;
   }
   
   .header nav li a:hover {
     color: #0000ff;
+  }
+
+  .logo {
+    width: 60rem;
   }
   
   
