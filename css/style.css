@@ -5,6 +5,7 @@
   font-weight: 500;
   font-style: normal;
   
+  
 }
 
 title {
@@ -128,6 +129,8 @@ body {
   .header nav li a:hover {
     color: #0000ff;
   }
+
+
   
   .sordi {
 
@@ -139,6 +142,39 @@ body {
 
   .logo {
     width: 30rem;
+   
+  }
+
+  .slogan {
+    font-size: 40px;;
+    height: 50px;
+    border-right: 3px solid rgba(255, 255, 255, .75);
+    white-space: nowrap;
+    overflow: hidden;
+  
+  }
+
+  .typing-animation {
+    animation: blinkCursor 500ms infinite normal, typing 6s steps(37) 1s normal;
+  }
+
+  @keyframes blinkCursor{
+    from {
+      border-right-color: rgba (255, 255, 255, .75);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+
+  @keyframes typing {
+    from{
+      width: 0;
+    }
+    to{
+      width: 792px;
+    }
+
   }
   
 
