@@ -23,6 +23,7 @@ body {
     background-color: #002687    ;
     align-items: center;  
     justify-content: center;
+    min-width: 706px;;
 
   }
 
@@ -40,6 +41,7 @@ body {
     background-color:#1103509d  ;
     background-color: linear-gradient(to bottom, #1103509d, #00268700);
     border-radius: 20px;
+    min-width: 375px;
   }
   
   h1 {
@@ -138,6 +140,7 @@ body {
    flex-direction: column;
     align-items: center;
     height: 100vh;
+    display: none;
   }
 
   .logo {
@@ -193,4 +196,28 @@ body {
     padding: 10px;
     text-align: center;
   }
-  
+
+  main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /*estilizaçoes inferiores  */
+
+  .produtos {
+    padding: 0;
+    width: 80vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+
+.produtos-texto {
+  width: 300px;
+  min-width: 150px;
+}
