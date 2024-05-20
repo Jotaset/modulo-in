@@ -140,7 +140,7 @@ body {
    flex-direction: column;
     align-items: center;
     height: 100vh;
-    /* display: none; */
+    display: none;
   }
 
   .logo {
@@ -243,11 +243,23 @@ body {
   align-items: center;
   margin: auto;
   gap: 5px;
+  position: relative;
+
 }
 
 .foto {
-  border-radius: 50%;
+  /* border-radius: 50%; */
+  clip-path: circle(40%);
+  position: relative;
+  margin-top: 3px;
+  top: -20px;
+}
 
+.produto {
+  margin: 0;
+  font-size: 20px;
+  position: relative; 
+  top: -3px;
 }
 
 
