@@ -262,6 +262,11 @@ body {
   top: -3px;
 }
 
+p {
+  justify-content: center;
+  text-align: center;
+}
+
 
 
 
