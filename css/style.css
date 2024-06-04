@@ -320,8 +320,6 @@ p {
   align-items: center;
 }
 
-
-
 .card:hover {
   display: block;
 flex-grow: 7;
@@ -331,5 +329,3 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 }
-
- 
