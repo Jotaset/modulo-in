@@ -21,10 +21,10 @@ body {
   background-color: rgb(0, 38, 135);
   align-items: center;
   justify-content: center;
-  min-width: 706px;
+  min-width: 400px;
 }
 
-body ::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
   background-color: black;
 }
 
@@ -74,6 +74,8 @@ ul {
   margin-top: 0.8rem;
   margin-bottom: 10px;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 li {
@@ -131,7 +133,7 @@ img {
   flex-direction: column;
   align-items: center;
   height: 100vh;
-
+  /* display: none; */
 }
 
 .logo {
@@ -144,6 +146,7 @@ img {
   border-right: 3px solid rgba(255, 255, 255, 0.75);
   white-space: nowrap;
   overflow: hidden;
+  min-width: 400px;
 }
 
 .typing-animation {
@@ -201,6 +204,7 @@ main {
   align-items: center;
   justify-content: center;
   padding: 10px;
+  display: none;
 
 }
 
@@ -268,6 +272,7 @@ p {
   justify-content: center;
   align-items: center;
   gap: 12px;
+  display: none;
 }
 
 #serviços h2 {
@@ -309,6 +314,20 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+
+#contato {
+  width: 95vw;
+  min-width: 250px;
+  height: 100vh;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  flex-wrap: nowrap;
+  
 }
 
 
