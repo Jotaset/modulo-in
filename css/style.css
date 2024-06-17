@@ -6,6 +6,8 @@
   font-style: normal;
 }
 
+
+
 title {
   font-family: "Agdasima", sans-serif;
   font-weight: 400;
@@ -13,7 +15,7 @@ title {
 }
 
 body {
-  width: 98vw;
+  width: 100vw;
   font-family: "JetBrains Mono", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -29,7 +31,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 header {
-  margin-left: 3px;
+  margin-left: 8px;
   width: 98vw;
   align-items: center;
   display: flex;
@@ -99,6 +101,7 @@ img {
   background-color: #333333;
   color: #ffffff;
   padding: 10px;
+  justify-content: center;
 }
 
 .header h1 {
@@ -141,34 +144,11 @@ img {
 }
 
 .slogan {
-  font-size: 40px;
-  height: 50px;
-  border-right: 3px solid rgba(255, 255, 255, 0.75);
+  font-size: 20px;
+  height: 25px;
   white-space: nowrap;
   overflow: hidden;
-  min-width: 400px;
-}
-
-.typing-animation {
-  animation: blinkCursor 500ms infinite normal, typing 6s steps(37) 1s normal;
-}
-
-@keyframes blinkCursor {
-  from {
-    border-right-color: rgba (255, 255, 255, 0.75);
-  }
-  to {
-    border-right-color: transparent;
-  }
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 792px;
-  }
+  min-width: 300px;
 }
 
 .main h2 {
@@ -204,7 +184,7 @@ main {
   align-items: center;
   justify-content: center;
   padding: 10px;
-  display: none;
+  /* display: none; */
 
 }
 
@@ -231,8 +211,8 @@ main {
 }
 
 .item {
-  width: 250px;
-  height: 300px;
+  width: 270px;
+  height: 350px;
   background-color: transparent;
   border: 2px solid #fec62b;
   display: flex;
@@ -243,6 +223,14 @@ main {
   margin: auto;
   gap: 5px;
   position: relative;
+  overflow: hidden;
+}
+
+.wpp{
+  background-color: #fec62bdd;
+  color: #333333;
+  border-radius:10px;
+  padding: 6px;
 }
 
 .foto {
@@ -272,7 +260,7 @@ p {
   justify-content: center;
   align-items: center;
   gap: 12px;
-  display: none;
+  /* display: none; */
 }
 
 #serviços h2 {
@@ -327,5 +315,5 @@ p {
   flex-direction: column;
   padding-top: 40px;
   flex-wrap: nowrap;
-  
 }
+
