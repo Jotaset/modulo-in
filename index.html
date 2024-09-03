@@ -34,129 +34,147 @@
     <link rel="stylesheet" href="./css/reset.css" />
   </head>
   <body>
+    <div id="inicio"></div>
 
-  <div id="inicio"></div>
-    <header class="navegacao">
+    <header class="header">
       <h1>
         <span>SORDI</span>
         <span>CELULARES</span>
       </h1>
       <nav>
-        <ul>
-          <li class="botao-inicio" id="inicio"><a href="#inicio">Início</a></li>
-          <li><a href="#info">Quem Somos?</a></li>
-          <li><a href="#produtos">Produtos</a></li>
-          <li><a href="#serviços">Serviços</a></li>
-          <li><a href="#contato">Nosso contato</a></li>
-        </ul>
+        <div class="nav">
+          <a href="#inicio" class="btn">INÍCIO</a>
+          <a href="#produtos" class="btn">PRODUTOS</a>
+          <a href="#servicos" class="btn">SERVIÇOS</a>
+          <a href="#contato" class="btn">CONTATO</a>
+        </div>
       </nav>
     </header>
+
     <main>
       <section class="sordi" id="inicio">
         <h2>BEM VINDO A</h2>
-        <span class="logo"
-          ><img src="./assets/LOGO-SORDI.jpg" alt="logo sordi celulares"
-        /></span>
-        <p class="slogan typing-animation">Assistência Técnica Especializada</p>
+        <img
+          src="./assets/LOGO-SORDI.jpg"
+          alt="logo sordi celulares"
+          class="logoImg"
+        />
       </section>
       <section class="produtos" id="produtos">
         <h2 class="produtos-texto">Nossos produtos</h2>
         <div class="catalogo">
           <section class="fotos" id="fotos">
-            <button class="btn btn-voltar">
-              <img src="./assets/seta (2).png" alt="seta">
-            </button>
-            <div class="item">
+            <div class="item item1" >
               <div class="foto">
-                <img
-                  src="./assets/iphone.jpg"
-                  alt="iphone"
-                />
+                <img src="./assets/iphone.jpg" alt="iphone" class="productCardImg"/>
               </div>
               <h2 class="produto">iPhones</h2>
-              <p>iPhones novos e seminovos de diversos modelos disponíveis</p>
-              <a href="https://wa.me/5549999167404/?text=Olá! Vi pelo site que voces tem **, consegue me mandar os modelos?" target="_blank" class="wpp">Eu Quero</a>
+              <a
+                href="https://wa.me/5549999167404/?text=Olá! Vi pelo site que voces tem **, consegue me mandar os modelos?" 
+                target="_blank"
+                class="wppBtn"
+                >Eu Quero</a
+              >
             </div>
-            <div class="item">
+            <div class="item item8" >
               <div class="foto">
                 <img
                   src="./assets/KD775.webp"
-                  alt="fone de ouvido kaidi kd775 preto com luzes verdes"
+                  alt="fone de ouvido kaidi kd775 preto com luzes verdes" class="productCardImg"
                 />
               </div>
               <h2 class="produto">FONES DE OUVIDO</h2>
-              <p>TEMOS UMA GRANDE VARIEDADE DE FONES DE OUVIDO</p>
-              <a href="http://wa.me/5549999167404/?text=Olá! Vi pelo site que voces tem **, consegue me mandar os modelos?" target="_blank" class="wpp">Eu Quero</a>
+              <a
+                href="http://wa.me/5549999167404/?text=Olá! Vi pelo site que voces tem **, consegue me mandar os modelos?"
+                target="_blank"
+                class="wppBtn"
+                >Eu Quero</a
+              >
             </div>
-            <div class="item">
+            <div class="item item2" >
               <div class="foto">
                 <img
                   src="./assets/KD775.webp"
-                  alt="fone de ouvido kaidi kd775 preto com luzes verdes"
+                  alt="fone de ouvido kaidi kd775 preto com luzes verdes" class="productCardImg"
                 />
               </div>
               <h2 class="produto">FONES DE OUVIDO</h2>
-              <p>TEMOS UMA GRANDE VARIEDADE DE FONES DE OUVIDO</p>
-              <a href="https://wa.me/5549999167404/?text=Olá! Vi pelo site que voces tem **, consegue me mandar os modelos?" target="_blank" class="wpp">Eu Quero</a>
+              <a
+                href="https://wa.me/5549999167404/?text=Olá! Vi pelo site que voces tem **, consegue me mandar os modelos?"
+                target="_blank"
+                class="wppBtn"
+                >Eu Quero</a
+              >
             </div>
-            <div class="item">
+            <div class="item item3" >
               <div class="foto">
                 <img
                   src="./assets/KD775.webp"
-                  alt="fone de ouvido kaidi kd775 preto com luzes verdes"
+                  alt="fone de ouvido kaidi kd775 preto com luzes verdes" class="productCardImg"
                 />
               </div>
               <h2 class="produto">FONES DE OUVIDO</h2>
-              <p>TEMOS UMA GRANDE VARIEDADE DE FONES DE OUVIDO</p>
-              <a href="https://wa.me/5549999167404/?text=Olá! Vi pelo site que voces tem **, consegue me mandar os modelos?" target="_blank" class="wpp">Eu Quero</a>
+              <a
+                href="https://wa.me/5549999167404/?text=Olá! Vi pelo site que voces tem **, consegue me mandar os modelos?"
+                target="_blank"
+                class="wppBtn"
+                >Eu Quero</a
+              >
             </div>
-            <div class="item" id="select-left">
+            <div class="item item4"  id="select-left">
+              <div class="foto">
+                <img src="./assets/iPhones.png" alt="iphones" width="120px"  class="productCardImg"/>
+              </div>
+              <h2 class="produto">IPHONES SEMINOVOS</h2>
+              <a
+                href="https://wa.me/5549999167404/?text=Olá! Vi pelo site que voces tem **, consegue me mandar os modelos?"
+                target="_blank"
+                class="wppBtn"
+                >Eu Quero</a
+              >
+            </div>
+            <div class="item item5"  id="select-center">
+              <div class="foto">
+                <img src="./assets/fonesDeOuvido.jpg" alt="fone de ouvido" class="productCardImg" />
+              </div>
+              <h2 class="produto">FONES DE OUVIDO</h2>
+              <a
+                href="https://wa.me/5549999167404/?text=Olá! Vi pelo site que voces tem **, consegue me mandar os modelos?"
+                target="_blank"
+                class="wppBtn"
+                >Eu Quero</a
+              >
+            </div>
+            <div class="item item6"  id="select-right">
               <div class="foto">
                 <img
                   src="./assets/KD775.webp"
-                  alt="fone de ouvido kaidi kd775 preto com luzes verdes"
+                  alt="fone de ouvido kaidi kd775 preto com luzes verdes" class="productCardImg"
                 />
               </div>
               <h2 class="produto">FONES DE OUVIDO</h2>
-              <p>TEMOS UMA GRANDE VARIEDADE DE FONES DE OUVIDO</p>
-              <a href="https://wa.me/5549999167404/?text=Olá! Vi pelo site que voces tem **, consegue me mandar os modelos?" target="_blank" class="wpp">Eu Quero</a>
+              <a
+                href="https://wa.me/5549999167404/?text=Olá! Vi pelo site que voces tem **, consegue me mandar os modelos?"
+                target="_blank"
+                class="wppBtn"
+                >Eu Quero</a
+              >
             </div>
-            <div class="item" id='select-center'>
-              <div class="foto">
-                <img
-                  src="./assets/fonesDeOuvido.jpg"
-                  alt="fone de ouvido"
-                />
-              </div>
-              <h2 class="produto">FONES DE OUVIDO</h2>
-              <p>TEMOS UMA GRANDE VARIEDADE DE FONES DE OUVIDO</p>
-              <a href="https://wa.me/5549999167404/?text=Olá! Vi pelo site que voces tem **, consegue me mandar os modelos?" target="_blank" class="wpp">Eu Quero</a>
-            </div>
-            <div class="item" id="select-right">
+            <div class="item item7" >
               <div class="foto">
                 <img
                   src="./assets/KD775.webp"
-                  alt="fone de ouvido kaidi kd775 preto com luzes verdes"
+                  alt="fone de ouvido kaidi kd775 preto com luzes verdes" class="productCardImg"
                 />
               </div>
               <h2 class="produto">FONES DE OUVIDO</h2>
-              <p>TEMOS UMA GRANDE VARIEDADE DE FONES DE OUVIDO</p>
-              <a href="https://wa.me/5549999167404/?text=Olá! Vi pelo site que voces tem **, consegue me mandar os modelos?" target="_blank" class="wpp">Eu Quero</a>
+              <a
+                href="https://wa.me/5549999167404/?text=Olá! Vi pelo site que voces tem **, consegue me mandar os modelos?"
+                target="_blank"
+                class="wppBtn"
+                >Eu Quero</a
+              >
             </div>
-            <div class="item">
-              <div class="foto">
-                <img
-                  src="./assets/KD775.webp"
-                  alt="fone de ouvido kaidi kd775 preto com luzes verdes"
-                />
-              </div>
-              <h2 class="produto">FONES DE OUVIDO</h2>
-              <p>TEMOS UMA GRANDE VARIEDADE DE FONES DE OUVIDO</p>
-              <a href="https://wa.me/5549999167404/?text=Olá! Vi pelo site que voces tem **, consegue me mandar os modelos?" target="_blank" class="wpp">Eu Quero</a>
-            </div>
-            <button class="btn btn-avancar">
-              <img src="./assets/seta (2).png" alt="seta">
-            </button>
           </section>
         </div>
         <p>
@@ -186,7 +204,8 @@
           </div>
         </div>
         <p>
-          Aqui na Sordi, de um acessorio para o seu aparelho, até o reparo que voce precisa, voce encontra!
+          Aqui na Sordi, de um acessorio para o seu aparelho, até o reparo que
+          voce precisa, voce encontra!
         </p>
       </section>
       <section id="contato">
@@ -196,14 +215,10 @@
           We will be happy to help yo u.
         </p>
       </section>
-      <section id="info">
-        <h2>QUEM SOMOS</h2>
-        <p>INFORMAÇÕES SOBRE A SORDI CELULARES</p>
-      </section>
     </main>
+
     <footer>
       <p>Copyright 2024 My Business</p>
     </footer>
-  
   </body>
 </html>
