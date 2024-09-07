@@ -72,29 +72,56 @@ h1 {
 }
 
 .produtos{
-  width: 100vw;
+  text-align: center;
+  font-size: 20px;
+  width: 98vw;
   height: 100vh;
+  margin: 0 auto;
 }
 
 .productCardImg {
-  width: 100px;
+  width: 147px;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  float: left;
 }
 
 .catalogo {
-  display: grid;
+  width: 98vw;
   grid-template-columns: repeat(3, 3fr);
-  gap: 15px;
+}
+
+.fotos {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:15px;
 }
 
 
 .item {
-  padding-bottom: 5px;
+  border-radius: 10px;
+  display: flex;
   height: 200px;
   border: solid var(--cor-secundaria) 2px;
   justify-content: space-between;
 }
 
+.anchor{
+  font-size: 20px;;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
 .wppBtn {
+  width: 100px;
   text-decoration: none;
   color: var(--text-color);
   background-color: var(--cor-secundaria);
