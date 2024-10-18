@@ -1,0 +1,135 @@
+
+@media (max-width: 1920px) {
+  
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0a1165;
+    color: white;
+    overflow:hidden;
+  }
+
+  .headerName{
+    font-size: 20px;
+    color: #FFC72C;
+  }
+
+  .anchors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .btnHeader {
+    padding: 10px;
+    text-decoration: none;
+    color: #F6F6F6;
+    border: 2px transparent solid;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .btnHeader:hover {
+    background-color: #002687;
+    border-bottom: #ffc72c;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    color: #f6f6f6;
+  }
+
+  .mainText {
+    margin: 10px 0;
+  }
+
+  .logoImg {
+    margin: auto;
+    max-width: 70%;
+  }
+
+
+}
+
+@media (max-width: 624px) {
+  
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: auto;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #0a1165;
+    color: white;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 440px) {
+  
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: auto;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #0a1165;
+    color: white;
+  }
+
+  .headerName{
+    font-size: 20px;
+    color: #FFC72C;
+  }
+
+  .anchors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .btnHeader {
+    text-decoration: none;
+    color: #F6F6F6;
+    border: 2px transparent solid;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .btnHeader:hover {
+    background-color: #002687;
+    border-bottom: #ffc72c;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    color: #f6f6f6;
+  }
+
+  .mainText {
+    margin: 30px 0;
+  }
+
+  .logoImg {
+    margin-top: 20px;
+    min-width: 100vw;
+  }
+}
