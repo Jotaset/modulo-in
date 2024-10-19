@@ -1,5 +1,5 @@
-@media (max-width: 1920px) {
-  
+
+
   .header {
     display: flex;
     flex-wrap: wrap;
@@ -54,8 +54,21 @@
   font-size: 2rem;
 }
 
-
+.wppBtn{
+  font-size: 1.2rem;
+  background-color: #ffc72c;
+  padding: 5px;
+  border: solid 2px transparent;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: ease 0.5s;
 }
+
+.wppBtn:hover {
+  background-color: whitesmoke;
+  border: solid 2px #ffc72c;
+}
+
 
 
 
@@ -111,7 +124,7 @@
   .card {
     border: solid 2px #ffc72c;
     border-radius: 10px;
-    height: 170px;
+    height: 200px;
   }
 
   img {
@@ -169,6 +182,16 @@
     color: #f6f6f6;
     gap: 10px;
   }
+
+  .wppBtn{
+  text-decoration: none;
+  text-align: center;
+}
+
+.wppBtn:hover {
+  background-color: whitesmoke;
+  border: solid 2px #ffc72c;
+}
   
 }
 
@@ -257,9 +280,11 @@
     padding: 5px;
     border: solid 2px transparent;
     border-radius: 10px;
+    text-decoration: none;
   }
 
   .wppBtn:hover {
+    background-color: whitesmoke;
     border: solid 2px #ffc72c;
   }
 }
